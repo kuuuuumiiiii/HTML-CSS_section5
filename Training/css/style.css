@@ -9,11 +9,22 @@
 
 .header {
   display: flex;
+  justify-content: space-between;
+}
+.header h1 {
+  margin-left: 20px;
 }
 
 .header ul {
   display: flex;
   list-style-type: none;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.header ul li {
+  margin-top: 30px;
 }
 
 .main {
@@ -30,6 +41,16 @@ h2 {
 .photo {
   grid-column: 2;
   grid-row: 2;
+}
+
+.photo .mejiros {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo .mejiros img {
+  width: 117px;
+  height: 117px;
 }
 
 .main-text {
